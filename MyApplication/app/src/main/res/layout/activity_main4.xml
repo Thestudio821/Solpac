@@ -22,7 +22,7 @@
         />
 
     <TextView
-        android:text="Quetion1"
+        android:text="現在の出身地"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle1"
@@ -48,7 +48,7 @@
 
 
     <TextView
-        android:text="Quetion2"
+        android:text="職業"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle2"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.148" />
 
     <TextView
-        android:text="Quetion3"
+        android:text="職場の住所"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle3"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.238" />
 
     <TextView
-        android:text="Quetion4"
+        android:text="家賃の希望額"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle4"
@@ -123,7 +123,7 @@
         app:layout_constraintVertical_bias="0.339" />
 
     <TextView
-        android:text="Quetion5"
+        android:text="何人家族か"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle5"
@@ -148,7 +148,7 @@
         app:layout_constraintVertical_bias="0.439" />
 
     <TextView
-        android:text="Quetion6"
+        android:text="このアプリに対してのコメント"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:id="@+id/subtitle6"
@@ -173,16 +173,16 @@
         app:layout_constraintVertical_bias="0.528" />
 
     <TextView
-        android:text="氏名"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/subtitle7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="氏名"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
 
     <EditText
         android:hint="琉球太郎"
@@ -222,17 +222,18 @@
         app:layout_constraintTop_toBottomOf="@+id/subtitle8"
         app:layout_constraintVertical_bias="0.757" />
 
+
     <TextView
-        android:text="性別"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/subtitle9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="性別"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
 
     <Spinner
         android:id="@+id/editTextTextPersonName13"
@@ -254,58 +255,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
-
-    <TextView
-        android:text="年齢"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
-        android:id="@+id/subtitle1000"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        />
-
-    <EditText
-        android:hint="21"
-        android:id="@+id/editTextTextPersonName1222"
-        android:layout_width="268dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitle1000"
-        app:layout_constraintVertical_bias="0.757" />
-
-    <TextView
-        android:text="年齢"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
-        android:id="@+id/subtitle81e"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName1222"
-        />
-
-    <EditText
-        android:hint="21"
-        android:id="@+id/editTextTextPersonName1212"
-        android:layout_width="268dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitle81e"
-        app:layout_constraintVertical_bias="0.757" />
-
-
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,9 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".MainActivity7"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity6"
             android:exported="true" />
         <activity

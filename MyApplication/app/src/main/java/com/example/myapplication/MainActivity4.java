@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
 import android.util.Log;
@@ -117,6 +118,8 @@ public class MainActivity4 extends AppCompatActivity {
                        if(code0 == 201){
                            Message message = new Message();
                            message.obj = 0;
+                           Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
+                           startActivity(intent);
                        };
                    }catch(Exception e){
                        e.printStackTrace();
