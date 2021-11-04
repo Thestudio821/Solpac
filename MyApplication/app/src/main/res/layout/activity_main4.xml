@@ -139,7 +139,7 @@
 
 
         <TextView
-            android:text="あなたの出身地を教えてください。"
+            android:text="現住所"
             android:paddingTop="5dp"
             android:paddingLeft="5dp"
             android:textSize="16sp"
