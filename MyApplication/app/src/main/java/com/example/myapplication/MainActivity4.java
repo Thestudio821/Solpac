@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class MainActivity4 extends AppCompatActivity {
-    private final String[] spinnerItems = {"選んでください","男", "女", "秘密"};//プルダウンリストの一覧
+    private final String[] spinnerItems = {"選択してください","男", "女", "秘密"};//プルダウンリストの一覧
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +49,7 @@ public class MainActivity4 extends AppCompatActivity {
                                        View view, int position, long id) {
                 Spinner spinner = (Spinner) parent;
                 String item = (String) spinner.getSelectedItem();
-                if(item.equals("選んでください")) {
+                if(item.equals(spinnerItems[0])) {
                     apiSend.setEnabled(false);
                 }
                 else{

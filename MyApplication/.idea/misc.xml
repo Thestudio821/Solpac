@@ -5,14 +5,15 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.13177083333333334" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.28541666666666665" />
+        <entry key="app/src/main/res/drawable/edittext_flame1.xml" value="0.1265625" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.28541666666666665" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.24382716049382716" />
-        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.20246052710477253" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.258453976280145" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.23784493730881248" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.19159372126385688" />
         <entry key="app/src/main/res/layout/activity_main6.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main7.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main7.xml" value="0.11041666666666666" />
       </map>
     </option>
   </component>
